@@ -12,7 +12,6 @@ def data_list(data):
 def create_frame(data):
         df = []
         for i in data:
-            print(i.room_name)
             df.append({
                 "Room Number":i.room_number,
                 "Room Name":i.room_name,
@@ -22,8 +21,6 @@ def create_frame(data):
                 "Display":i.display,
                 "Booking":i.booking_panel 
                 })
-            
-        print(df)
         return df
                 
 def write_data(list_of_dict):
