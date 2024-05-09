@@ -1,4 +1,4 @@
 Room Number,Room Name,Microphone,Camera,Speakers,Display,Booking Panel,Notes
-R2102,Board room,No,No,No,No,No,""
-R2005,HP,No,No,No,No,No,""
-R2105,Heinz,No,No,No,No,No,""
+R2102,Board room,Yes,Yes,Yes,Yes,Yes,""
+R2005,HP,Yes,Yes,Yes,Yes,Yes,""
+R2105,Heinz,Yes,Yes,Yes,Yes,Yes,""
