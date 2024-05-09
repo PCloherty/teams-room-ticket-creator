@@ -1,6 +1,7 @@
 This project was a proof of concept to automate ticket creation in Kraftheinz for 20+ cookie cutter Teams room check tickets with different variations.
 
 The requirements:
+
 1: The automation should be flexible instead of set variables for room names and numbers due to potential changes in the London office or use in other offices.
   To achieve this I went with importing a CSV file as the default information on room names and numbers using Pandas.
 
@@ -14,6 +15,7 @@ The requirements:
   Used Pandas to create the new dataframes after edits and exporting them to CSV files with the date of exportation.
 
 The current bugs:
+
 1: TKinter text widget does not have a variable method and so im unable to export the information typed into the notes text boxes.
 
 2: This is being developped on a dedicated dev system outside of the Corporate enviroment in order to prevent possible security concerns of rogue code,
